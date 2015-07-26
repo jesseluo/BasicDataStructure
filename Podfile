@@ -9,14 +9,14 @@ def testing_pods
   pod 'Nimble', :git => 'git@github.com:Quick/Nimble.git', :branch => 'swift-2.0'
 end
 
-target 'BaseDataStructure' do
+target 'BasicDataStructure' do
 
 end
 
-target 'BaseDataStructureTests' do
+target 'BasicDataStructureTests' do
   testing_pods
 end
 
-target 'BaseDataStructureUITests' do
+target 'BasicDataStructureUITests' do
   testing_pods
 end

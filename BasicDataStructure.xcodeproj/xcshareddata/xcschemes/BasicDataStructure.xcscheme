@@ -20,6 +20,20 @@
                ReferencedContainer = "container:BasicDataStructure.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8856AF071B65286E00D558E2"
+               BuildableName = "BasicDataStructureUITests.xctest"
+               BlueprintName = "BasicDataStructureUITests"
+               ReferencedContainer = "container:BasicDataStructure.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -35,16 +49,6 @@
                BlueprintIdentifier = "8856AEFC1B65286D00D558E2"
                BuildableName = "BasicDataStructureTests.xctest"
                BlueprintName = "BasicDataStructureTests"
-               ReferencedContainer = "container:BasicDataStructure.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8856AF071B65286E00D558E2"
-               BuildableName = "BasicDataStructureUITests.xctest"
-               BlueprintName = "BasicDataStructureUITests"
                ReferencedContainer = "container:BasicDataStructure.xcodeproj">
             </BuildableReference>
          </TestableReference>
