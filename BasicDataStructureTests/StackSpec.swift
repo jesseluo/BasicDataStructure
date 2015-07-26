@@ -33,6 +33,17 @@ class StackSpec: QuickSpec {
                 expect(stack.pop()).to(beNil())
                 expect(stack.count).to(equal(0))
             }
+            
+            it("should be able to pop all elememts") {
+                stack.pop()
+                stack.push("D");
+                expect(stack.isEmpty).to(equal(false))
+                expect(stack.popAll()).to(equal(["D", "B", "A"]))
+                expect(stack.count).to(equal(0))
+                expect(stack.popAll()).to(equal([]))
+                expect(stack.count).to(equal(0))
+                expect(stack.isEmpty).to(equal(true))
+            }
 
             it("should be able to clear elememts") {
                 expect(stack.isEmpty).to(equal(false))

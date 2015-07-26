@@ -30,7 +30,13 @@ class Stack<T>: NSObject {
     func pop() -> T? {
         return stack.count > 0 ? stack.removeLast() : nil
     }
-    
+
+    func popAll() -> [T] {
+        let output:[T] = stack.reverse()
+        clear()
+        return output
+    }
+
     func clear() {
         stack.removeAll()
     }

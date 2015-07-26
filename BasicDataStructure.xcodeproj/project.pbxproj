@@ -21,6 +21,7 @@
 		8856AF211B6529EA00D558E2 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856AF1D1B6529EA00D558E2 /* Stack.swift */; };
 		8856AF241B652A0600D558E2 /* QueueSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856AF221B652A0600D558E2 /* QueueSpec.swift */; };
 		8856AF251B652A0600D558E2 /* StackSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856AF231B652A0600D558E2 /* StackSpec.swift */; };
+		8856AF271B652FC600D558E2 /* BasicDSOperationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856AF261B652FC600D558E2 /* BasicDSOperationProtocol.swift */; };
 		97B15D64B6B69B55EEF5E94B /* Pods_BasicDataStructureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89CCD7EE25AC198B01F594E /* Pods_BasicDataStructureUITests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		8856AF1D1B6529EA00D558E2 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		8856AF221B652A0600D558E2 /* QueueSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueSpec.swift; sourceTree = "<group>"; };
 		8856AF231B652A0600D558E2 /* StackSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSpec.swift; sourceTree = "<group>"; };
+		8856AF261B652FC600D558E2 /* BasicDSOperationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicDSOperationProtocol.swift; sourceTree = "<group>"; };
 		B5715175E9CE5B0377341438 /* Pods-BasicDataStructureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicDataStructureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicDataStructureTests/Pods-BasicDataStructureTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D89CCD7EE25AC198B01F594E /* Pods_BasicDataStructureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicDataStructureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20AB1FA62CCF3C2D1E770E4 /* Pods-BasicDataStructureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicDataStructureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasicDataStructureTests/Pods-BasicDataStructureTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,7 +130,9 @@
 		8856AEEB1B65286D00D558E2 /* BasicDataStructure */ = {
 			isa = PBXGroup;
 			children = (
-				8856AF1B1B6528AA00D558E2 /* Basic */,
+				8856AF261B652FC600D558E2 /* BasicDSOperationProtocol.swift */,
+				8856AF1C1B6529EA00D558E2 /* Queue.swift */,
+				8856AF1D1B6529EA00D558E2 /* Stack.swift */,
 				8856AF1A1B65288500D558E2 /* Support */,
 			);
 			path = BasicDataStructure;
@@ -165,15 +169,6 @@
 				8856AEF81B65286D00D558E2 /* Info.plist */,
 			);
 			name = Support;
-			sourceTree = "<group>";
-		};
-		8856AF1B1B6528AA00D558E2 /* Basic */ = {
-			isa = PBXGroup;
-			children = (
-				8856AF1C1B6529EA00D558E2 /* Queue.swift */,
-				8856AF1D1B6529EA00D558E2 /* Stack.swift */,
-			);
-			name = Basic;
 			sourceTree = "<group>";
 		};
 		B25D5C2D397992222CB89D6B /* Pods */ = {
@@ -400,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8856AF271B652FC600D558E2 /* BasicDSOperationProtocol.swift in Sources */,
 				8856AF201B6529EA00D558E2 /* Stack.swift in Sources */,
 				8856AEEF1B65286D00D558E2 /* ViewController.swift in Sources */,
 				8856AF1E1B6529EA00D558E2 /* Queue.swift in Sources */,

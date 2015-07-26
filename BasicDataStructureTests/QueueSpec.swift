@@ -33,7 +33,16 @@ class QueueSpec: QuickSpec {
                 expect(queue.dequeue()).to(beNil())
                 expect(queue.count).to(equal(0))
             }
-            
+
+            it("should be able to dequeue all elememts") {
+                expect(queue.isEmpty).to(equal(false))
+                expect(queue.dequeueAll()).to(equal(["A", "B", "C"]))
+                expect(queue.count).to(equal(0))
+                expect(queue.dequeueAll()).to(equal([]))
+                expect(queue.count).to(equal(0))
+                expect(queue.isEmpty).to(equal(true))
+            }
+
             it("should be able to clear elememts") {
                 expect(queue.isEmpty).to(equal(false))
                 queue.clear()

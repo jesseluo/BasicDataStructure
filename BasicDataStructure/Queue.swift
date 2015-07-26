@@ -10,7 +10,7 @@ import Foundation
 
 class Queue<T>: NSObject {
     private var queue = [T]()
-    
+
     var count: Int {
         get {
             return queue.count
@@ -30,7 +30,13 @@ class Queue<T>: NSObject {
     func dequeue() -> T? {
         return queue.count > 0 ? queue.removeAtIndex(0) : nil
     }
-    
+
+    func dequeueAll() -> [T] {
+        let output = queue
+        queue = [T]()
+        return output
+    }
+
     func clear() {
         queue.removeAll()
     }
