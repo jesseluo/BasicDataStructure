@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8856AEE81B65286D00D558E2"
+               BuildableName = "BasicDataStructure.app"
+               BlueprintName = "BasicDataStructure"
+               ReferencedContainer = "container:BasicDataStructure.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8856AEFC1B65286D00D558E2"
+               BuildableName = "BasicDataStructureTests.xctest"
+               BlueprintName = "BasicDataStructureTests"
+               ReferencedContainer = "container:BasicDataStructure.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8856AF071B65286E00D558E2"
+               BuildableName = "BasicDataStructureUITests.xctest"
+               BlueprintName = "BasicDataStructureUITests"
+               ReferencedContainer = "container:BasicDataStructure.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8856AEE81B65286D00D558E2"
+            BuildableName = "BasicDataStructure.app"
+            BlueprintName = "BasicDataStructure"
+            ReferencedContainer = "container:BasicDataStructure.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8856AEE81B65286D00D558E2"
+            BuildableName = "BasicDataStructure.app"
+            BlueprintName = "BasicDataStructure"
+            ReferencedContainer = "container:BasicDataStructure.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8856AEE81B65286D00D558E2"
+            BuildableName = "BasicDataStructure.app"
+            BlueprintName = "BasicDataStructure"
+            ReferencedContainer = "container:BasicDataStructure.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
