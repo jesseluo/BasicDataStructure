@@ -1,14 +1,14 @@
 //
-//  Stack.swift
-//  BaseDataStructure
+//  SimpleStack.swift
+//  BasicDataStructure
 //
-//  Created by Jesse Luo on 15/7/26.
-//  Copyright © 2015年 JesseLuo. All rights reserved.
+//  Created by Jesse Luo on 15/9/13.
+//  Copyright © 2015年 Jesse Luo. All rights reserved.
 //
 
 import Foundation
 
-class Stack<T>: NSObject {
+class SimpleStack<T>: NSObject, StackProtocol {
     private var stack = [T]()
     
     var count: Int {
@@ -26,17 +26,17 @@ class Stack<T>: NSObject {
     func push(element: T) {
         stack.append(element)
     }
-
+    
     func pop() -> T? {
         return stack.count > 0 ? stack.removeLast() : nil
     }
-
+    
     func popAll() -> [T] {
         let output:[T] = stack.reverse()
         clear()
         return output
     }
-
+    
     func clear() {
         stack.removeAll()
     }

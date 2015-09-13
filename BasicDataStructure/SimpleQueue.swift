@@ -1,16 +1,16 @@
 //
-//  Queue.swift
-//  BaseDataStructure
+//  SimpleQueue.swift
+//  BasicDataStructure
 //
-//  Created by Jesse Luo on 15/7/26.
-//  Copyright © 2015年 JesseLuo. All rights reserved.
+//  Created by Jesse Luo on 15/9/13.
+//  Copyright © 2015年 Jesse Luo. All rights reserved.
 //
 
 import Foundation
 
-class Queue<T>: NSObject {
+class SimpleQueue<T>: NSObject, QueueProtocol {
     private var queue = [T]()
-
+    
     var count: Int {
         get {
             return queue.count
@@ -30,13 +30,13 @@ class Queue<T>: NSObject {
     func dequeue() -> T? {
         return queue.count > 0 ? queue.removeAtIndex(0) : nil
     }
-
+    
     func dequeueAll() -> [T] {
         let output = queue
         queue = [T]()
         return output
     }
-
+    
     func clear() {
         queue.removeAll()
     }

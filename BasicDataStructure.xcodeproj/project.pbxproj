@@ -15,13 +15,13 @@
 		8856AEF71B65286D00D558E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8856AEF51B65286D00D558E2 /* LaunchScreen.storyboard */; };
 		8856AF021B65286D00D558E2 /* BasicDataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856AF011B65286D00D558E2 /* BasicDataStructureTests.swift */; };
 		8856AF0D1B65286E00D558E2 /* BasicDataStructureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856AF0C1B65286E00D558E2 /* BasicDataStructureUITests.swift */; };
-		8856AF1E1B6529EA00D558E2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856AF1C1B6529EA00D558E2 /* Queue.swift */; };
-		8856AF1F1B6529EA00D558E2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856AF1C1B6529EA00D558E2 /* Queue.swift */; };
-		8856AF201B6529EA00D558E2 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856AF1D1B6529EA00D558E2 /* Stack.swift */; };
-		8856AF211B6529EA00D558E2 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856AF1D1B6529EA00D558E2 /* Stack.swift */; };
 		8856AF241B652A0600D558E2 /* QueueSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856AF221B652A0600D558E2 /* QueueSpec.swift */; };
 		8856AF251B652A0600D558E2 /* StackSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856AF231B652A0600D558E2 /* StackSpec.swift */; };
 		8856AF271B652FC600D558E2 /* BasicDSOperationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856AF261B652FC600D558E2 /* BasicDSOperationProtocol.swift */; };
+		88C566271BA55890007A8FB5 /* StackProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C566261BA55890007A8FB5 /* StackProtocol.swift */; settings = {ASSET_TAGS = (); }; };
+		88C566291BA56319007A8FB5 /* SimpleStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C566281BA56319007A8FB5 /* SimpleStack.swift */; settings = {ASSET_TAGS = (); }; };
+		88C5662B1BA572D6007A8FB5 /* SimpleQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5662A1BA572D6007A8FB5 /* SimpleQueue.swift */; settings = {ASSET_TAGS = (); }; };
+		88C5662D1BA57372007A8FB5 /* QueueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5662C1BA57372007A8FB5 /* QueueProtocol.swift */; settings = {ASSET_TAGS = (); }; };
 		97B15D64B6B69B55EEF5E94B /* Pods_BasicDataStructureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89CCD7EE25AC198B01F594E /* Pods_BasicDataStructureUITests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -58,11 +58,13 @@
 		8856AF081B65286E00D558E2 /* BasicDataStructureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicDataStructureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8856AF0C1B65286E00D558E2 /* BasicDataStructureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDataStructureUITests.swift; sourceTree = "<group>"; };
 		8856AF0E1B65286E00D558E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8856AF1C1B6529EA00D558E2 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
-		8856AF1D1B6529EA00D558E2 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		8856AF221B652A0600D558E2 /* QueueSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueSpec.swift; sourceTree = "<group>"; };
 		8856AF231B652A0600D558E2 /* StackSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackSpec.swift; sourceTree = "<group>"; };
 		8856AF261B652FC600D558E2 /* BasicDSOperationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicDSOperationProtocol.swift; sourceTree = "<group>"; };
+		88C566261BA55890007A8FB5 /* StackProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackProtocol.swift; sourceTree = "<group>"; };
+		88C566281BA56319007A8FB5 /* SimpleStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleStack.swift; sourceTree = "<group>"; };
+		88C5662A1BA572D6007A8FB5 /* SimpleQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleQueue.swift; sourceTree = "<group>"; };
+		88C5662C1BA57372007A8FB5 /* QueueProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueProtocol.swift; sourceTree = "<group>"; };
 		B5715175E9CE5B0377341438 /* Pods-BasicDataStructureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicDataStructureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicDataStructureTests/Pods-BasicDataStructureTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D89CCD7EE25AC198B01F594E /* Pods_BasicDataStructureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicDataStructureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20AB1FA62CCF3C2D1E770E4 /* Pods-BasicDataStructureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicDataStructureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasicDataStructureTests/Pods-BasicDataStructureTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,8 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				8856AF261B652FC600D558E2 /* BasicDSOperationProtocol.swift */,
-				8856AF1C1B6529EA00D558E2 /* Queue.swift */,
-				8856AF1D1B6529EA00D558E2 /* Stack.swift */,
+				88C5662C1BA57372007A8FB5 /* QueueProtocol.swift */,
+				88C5662A1BA572D6007A8FB5 /* SimpleQueue.swift */,
+				88C566281BA56319007A8FB5 /* SimpleStack.swift */,
+				88C566261BA55890007A8FB5 /* StackProtocol.swift */,
 				8856AF1A1B65288500D558E2 /* Support */,
 			);
 			path = BasicDataStructure;
@@ -396,9 +400,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8856AF271B652FC600D558E2 /* BasicDSOperationProtocol.swift in Sources */,
-				8856AF201B6529EA00D558E2 /* Stack.swift in Sources */,
+				88C5662D1BA57372007A8FB5 /* QueueProtocol.swift in Sources */,
+				88C566291BA56319007A8FB5 /* SimpleStack.swift in Sources */,
+				88C5662B1BA572D6007A8FB5 /* SimpleQueue.swift in Sources */,
 				8856AEEF1B65286D00D558E2 /* ViewController.swift in Sources */,
-				8856AF1E1B6529EA00D558E2 /* Queue.swift in Sources */,
+				88C566271BA55890007A8FB5 /* StackProtocol.swift in Sources */,
 				8856AEED1B65286D00D558E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,9 +415,7 @@
 			files = (
 				8856AF021B65286D00D558E2 /* BasicDataStructureTests.swift in Sources */,
 				8856AF251B652A0600D558E2 /* StackSpec.swift in Sources */,
-				8856AF211B6529EA00D558E2 /* Stack.swift in Sources */,
 				8856AF241B652A0600D558E2 /* QueueSpec.swift in Sources */,
-				8856AF1F1B6529EA00D558E2 /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

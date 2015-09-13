@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol BasicDSOperationProtocol {
+public protocol BasicDSOperationProtocol {
     var count: Int { get }
     var isEmpty: Bool { get }
     
