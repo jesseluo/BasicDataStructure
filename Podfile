@@ -5,8 +5,8 @@ use_frameworks!
 inhibit_all_warnings!
 
 def testing_pods
-  pod 'Quick', :git => 'git@github.com:Quick/Quick.git', :branch => 'swift-2.0'
-  pod 'Nimble', :git => 'git@github.com:Quick/Nimble.git', :branch => 'swift-2.0'
+  pod 'Quick', '~> 0.6.0'
+  pod 'Nimble', '= 2.0.0-rc.3'
 end
 
 target 'BasicDataStructure' do
