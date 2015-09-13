@@ -9,9 +9,9 @@
 import Foundation
 
 public protocol QueueProtocol: BasicDSOperationProtocol {
-    typealias T;
+    typealias T
     
-    func enqueue(element: T);
-    func dequeue() -> T?;
-    func dequeueAll() -> [T];
+    func enqueue(element: T)
+    func dequeue() -> T?
+    func dequeueAll() -> [T]
 }

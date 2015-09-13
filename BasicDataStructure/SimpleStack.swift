@@ -8,36 +8,40 @@
 
 import Foundation
 
-class SimpleStack<T>: NSObject, StackProtocol {
-    private var stack = [T]()
+public class SimpleStack<T>: NSObject, StackProtocol {
+    private var stack: [T]
+
+    public override init() {
+        stack = [T]()
+    }
     
-    var count: Int {
+    public var count: Int {
         get {
-            return stack.count;
+            return stack.count
         }
     }
     
-    var isEmpty: Bool {
+    public var isEmpty: Bool {
         get {
-            return stack.isEmpty;
+            return stack.isEmpty
         }
     }
     
-    func push(element: T) {
+    public func push(element: T) {
         stack.append(element)
     }
     
-    func pop() -> T? {
+    public func pop() -> T? {
         return stack.count > 0 ? stack.removeLast() : nil
     }
     
-    func popAll() -> [T] {
+    public func popAll() -> [T] {
         let output:[T] = stack.reverse()
         clear()
         return output
     }
     
-    func clear() {
+    public func clear() {
         stack.removeAll()
     }
 }

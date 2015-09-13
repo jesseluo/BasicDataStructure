@@ -12,11 +12,11 @@ import BasicDataStructure
 
 class QueueSpec: QuickSpec {
     override func spec() {
-        describe("a quque") {
-            var queue: Queue<String>!
+        describe("a queue") {
+            var queue: SimpleQueue<String>!
             
             beforeEach {
-                queue = Queue<String>()
+                queue = SimpleQueue<String>()
                 queue.enqueue("A")
                 queue.enqueue("B")
                 queue.enqueue("C")

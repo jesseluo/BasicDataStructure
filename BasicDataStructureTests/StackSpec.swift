@@ -13,10 +13,10 @@ import BasicDataStructure
 class StackSpec: QuickSpec {
     override func spec() {
         describe("a stack") {
-            var stack: Stack<String>!
+            var stack: SimpleStack<String>!
             
             beforeEach {
-                stack = Stack<String>()
+                stack = SimpleStack<String>()
                 stack.push("A")
                 stack.push("B")
                 stack.push("C")

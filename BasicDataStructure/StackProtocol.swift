@@ -9,9 +9,9 @@
 import Foundation
 
 public protocol StackProtocol: BasicDSOperationProtocol {
-    typealias T;
+    typealias T
     
-    func push(element: T);
-    func pop() -> T?;
-    func popAll() -> [T];
+    func push(element: T)
+    func pop() -> T?
+    func popAll() -> [T]
 }
